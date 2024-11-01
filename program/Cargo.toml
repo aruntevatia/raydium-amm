@@ -2,7 +2,7 @@
 
 [package]
 name = "raydium_amm"
-version = "0.3.0"
+version = "0.3.1"
 description = "Raydium AMM"
 authors = ["Raydium Maintainers "]
 repository = "https://github.com/raydium-io/raydium-amm"
@@ -14,9 +14,8 @@ no-entrypoint = ["serum_dex/no-entrypoint"]
 program = ["serum_dex/program", "serum_dex/no-entrypoint"]
 default = ["program"]
 client = ["serum_dex/client"]
-test = []
 devnet = []
-localnet = []
+testnet = []
 
 [dependencies]
 solana-program = "<1.17.0"
