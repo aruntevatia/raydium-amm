@@ -1624,6 +1624,7 @@ dependencies = [
  "serde_json",
  "serum_dex",
  "solana-program",
+ "solana-security-txt",
  "spl-associated-token-account",
  "spl-token 4.0.0",
  "thiserror",
@@ -1798,7 +1799,11 @@ dependencies = [
 [[package]]
 name = "serum_dex"
 version = "0.5.10"
+<<<<<<< HEAD:program/Cargo.lock
 source = "git+https://github.com/aruntevatia/openbook-dex#56256478907b9e644726d674a0a5284b9edfbf2c"
+=======
+source = "git+https://github.com/raydium-io/openbook-dex#db697af23aea283e452b5fb956753171748029b5"
+>>>>>>> d10a8e9fab9f7a3d87b4ae3891e3e4c24b75c041:Cargo.lock
 dependencies = [
  "anchor-lang",
  "arrayref",
